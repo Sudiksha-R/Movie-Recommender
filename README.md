@@ -67,6 +67,16 @@ Movies suggested for you:
 ```
 
 ---
+### Evaluation Metrics
+After generating recommendations, the following metrics are computed:
+- **Precision@k**
+- **Recall@k**
+- **F1 Score@k**
+- **Mean Reciprocal Rank (MRR)**
+
+The metrics are calculated by comparing the recommended movies against a set of relevant movies or a ground truth for a group of users.
+
+---
 
 
 ## Future Improvements  
